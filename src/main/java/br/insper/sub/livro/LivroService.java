@@ -49,6 +49,6 @@ public class LivroService {
     }
 
     public List<Livro> listarLivros(String email, List<String> roles) {
-        return livroRepository.findAll(); // qualquer usuário autenticado pode listar
+        return livroRepository.findAll();
     }
 }
